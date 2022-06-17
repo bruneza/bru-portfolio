@@ -1,0 +1,17 @@
+.banner-row{
+  display: flex;
+  height: 100vh;
+}
+.banner-col-1{
+  flex: 1;
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+}
+.bru-subtitle{
+  font-size: 0.8em ;
+}
+.banner-col-2{
+  flex: 1;
+}
+

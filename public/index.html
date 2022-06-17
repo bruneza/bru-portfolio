@@ -9,20 +9,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Manrope:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-      *{
-        margin:0;
-        font-family: 'Manrope', sans-serif;
-      }
-      h1,h2{
-        font-family: 'Corben', cursive;
-      }
-    </style>
   </head>
-  <body>
+  <style>
+    :root {
+  --main-color: #990000;
+  --secondary-color: #000000;
+  --text-color:#333333;
 
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+}
+    *{
+    margin:0;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  body{
+    font-size: 16px;
+    color: var(--text-color);
+  }
+
+  h1,h2{
+    font-family: 'Corben', cursive;
+  }
+  h1,h2,h3,h4{
+    color: var(--main-color);
+  }
+
+  .main-content{
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .wrapper{
+    padding: 10px;
+  }
+  
+  </style>
+  <body>
+    <div class="main-content">
+      <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    </div>    
 
   </body>
 </html>
