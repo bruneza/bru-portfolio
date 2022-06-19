@@ -1,3 +1,7 @@
+# Shortcut Command
+Quick Commit and push: 
+git add . | git commit -m "animate text v0.0 " |  git push
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
